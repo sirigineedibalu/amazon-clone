@@ -1,0 +1,219 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+.nav_bar {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: azure;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+  /* position: fixed; */
+}
+.border {
+  border: 2px solid transparent;
+}
+.border:hover {
+  border: solid 1px white;
+}
+.navbar_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.amazon_logo {
+}
+.box_1 {
+  width: 200px;
+  height: 40px;
+  text-transform: capitalize;
+}
+.delivary {
+  font-size: x-small;
+}
+.location_logo {
+  display: flex;
+}
+.box_2 {
+  display: flex;
+  height: 40px;
+}
+.options {
+  background-color: lightblue;
+  width: 100px;
+  text-align: center;
+  text-transform: capitalize;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search {
+  background-color: antiquewhite;
+  width: 400px;
+  border-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search_logo {
+  height: 40px;
+  background-color: rgb(184, 138, 11);
+}
+.box_4 {
+}
+.box_5 {
+  display: flex;
+}
+.down_nav {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.774);
+  color: azure;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+
+  top: 60px;
+}
+.main_content {
+  height: 500vh;
+  width: 100%;
+
+  position: relative;
+  top: 100px;
+  z-index: -9999;
+  
+}
+.background_image {
+  height: 600px;
+
+  background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/premium/jan7/Under_1499_Tallhero_3000x1200._CB584583557_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  display: flex;
+  align-items: last baseline;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container_one {
+  height: 300px;
+  width: 25%;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.subcontainer_one {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex: row;
+  justify-content:space-around;
+  align-items: center;
+  
+
+
+}
+.cloths {
+  height: 100px;
+  width: 40%;
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg");
+}
+.footware {
+  height: 100px;
+  width: 40%;
+  background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg");
+}
+.subcontainer_two {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex: row;
+  justify-content:space-around;
+
+
+}
+.watches {
+  height: 100px;
+  width: 40%;
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg');
+}
+.bags {
+  height: 100px;
+  width: 40%;
+  background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg');
+}
+.container_two{
+  
+    height: 300px;
+    width: 250%;
+    background-color: aliceblue;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+  
+}
+.inner_containerone{
+
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.bedsheets{
+
+    height: 100px;
+    width: 40%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_furnishings_2._SY116_CB584596691_.jpg");
+
+
+}
+.vases{
+
+    height: 100px;
+    width: 40%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_decor_1._SY116_CB584596691_.jpg");
+}
+.inner_containertwo{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex: row;
+    justify-content:space-around;
+    align-items: center;
+
+
+
+}
+.homestorage
+{height: 100px;
+    width: 40%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_storage_1._SY116_CB584596691_.jpg");
+
+
+
+}
+.lighting{
+
+    height: 100px;
+    width: 40%;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2024/Gateway/BTFGW/PCQC/186x116_Home_lighting_2._SY116_CB584596691_.jpg");
+}
